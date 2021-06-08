@@ -305,7 +305,6 @@ namespace Parcial02
             this.Name = "frmCreateUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clinica UCA - Create User";
-            this.Load += new System.EventHandler(this.frmCreateUser_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

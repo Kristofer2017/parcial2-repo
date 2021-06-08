@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Parcial02.Entities;
 using Parcial02.Views;
 
 namespace Parcial02

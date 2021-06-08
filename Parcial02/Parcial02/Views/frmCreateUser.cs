@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using Parcial02.Entities;
 
 namespace Parcial02
 {
@@ -37,7 +36,7 @@ namespace Parcial02
                 MessageBox.Show("Incorrect Information, Please try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+/*
         private void frmCreateUser_Load(object sender, EventArgs e)
         {
             using(var db = new UCAClinicContext())
@@ -55,7 +54,7 @@ namespace Parcial02
                 db.SaveChanges();
             }
 
-        }
+        } */
 
         private void btnCancel_Click(object sender, EventArgs e)
         {

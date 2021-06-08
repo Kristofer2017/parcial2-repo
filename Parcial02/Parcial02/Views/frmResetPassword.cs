@@ -10,7 +10,7 @@ namespace Parcial02.Views
         {
             InitializeComponent();
         }
-
+/*
         private void btnReset_Click(object sender, EventArgs e)
         {
             var db = new UCAClinicContext();
@@ -33,6 +33,12 @@ namespace Parcial02.Views
         {
             var db = new UCAClinicContext();
             lblSecurityQuestion.Text = db.SecurityQuestions.ToString();
+        }
+        */
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

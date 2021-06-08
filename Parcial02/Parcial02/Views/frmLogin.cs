@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Parcial02.Entities;
 using Parcial02.Views;
 
 namespace Parcial02
@@ -25,7 +24,7 @@ namespace Parcial02
 
             windowCreateUser.ShowDialog();
         }
-
+/*
         private void btnLogin_Click(object sender, EventArgs e)
         {
             var db = new UCAClinicContext();
@@ -43,7 +42,7 @@ namespace Parcial02
                 this.Hide();
             }
         }
-
+*/
         private void btnResetPassword_Click(object sender, EventArgs e)
         {
             frmResetPassword WindowResetPassword = new frmResetPassword();
